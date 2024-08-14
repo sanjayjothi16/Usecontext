@@ -23,14 +23,14 @@ function App() {
       id: 2,
       title: "iPhone X",
       description:
-        "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ... ",
+        "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
       price: 899,
       discountPercentage: 17.94,
       rating: "5.0",
       stock: 34,
       brand: "Apple",
       category: "smartphones",
-      thumbnail: "https://i.dummyjson.com/data/products/2/thumbnail. jpg",
+      thumbnail: "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
       image: "https://ringke.co.in/cdn/shop/files/61LoHQ9gpdL._SL1500_6e1233db-a8df-48c1-8f1b-9dace60e8187.jpg?v=1690962996",
     },
     {
@@ -71,14 +71,14 @@ function App() {
       stock: 32,
       brand: "Huawei",
       category: "smartphones",
-      thumbnail: "https://i.dummyjson.com/data/products/5/thumbnail. jpg",
+      thumbnail: "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
       image: "https://images.fonearena.com/blog/wp-content/uploads/2019/03/HUAWEI-P30-Lite-1.jpg",
     },
   ]);
 
   return (
     <>
-    <h1 className="site">Mobiles Shopping site</h1>
+      <h1 className="site">Mobiles Shopping site</h1>
       <UserContext.Provider value={{ product, setProduct }}>
         <div className="container my-5">
           <CartCard />
@@ -87,4 +87,5 @@ function App() {
     </>
   );
 }
+
 export default App;
