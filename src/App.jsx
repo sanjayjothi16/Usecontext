@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import CartCard from "./Component/Card";
-import "bootstrap/dist/css/bootstrap.min.css";
+import React, { useState } from "react"
+import "bootstrap/dist/css/bootstrap.min.css"
+import CartCard from "./component/Card"
 
 export const UserContext = React.createContext();
 
